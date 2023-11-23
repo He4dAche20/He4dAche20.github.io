@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255) url("background1.jpeg") no-repeat fixed center;
+    min-width: 1200px;
+}
+
+#glavni {
+    height: 100%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#obr {
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+h2 {
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    background: red;
+    margin: 20px auto
+}
+
+#polje {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+
+#obrazec {
+    text-align: center;
+    font-size: 25px;
+}
+
+#podatki {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#osebniP {
+    margin: 30px auto;
+    width: 95%;
+    height: 380px;
+    text-align: left;
+    display: block;
+}
+
+#left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#right {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px 20px;
+}
+
+input[type=date] {
+    border-radius: 10px;
+    width: 50%;
+    padding: 4px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=tel] {
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px 20px;
+}
+
+select {
+    border-radius: 10px;
+    width: 50%;
+    padding: 4px 20px;
+}
+
+input[type=email] {
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px 20px;
+}
+
+input[type=reg] {
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px 20px;
+}
+
+input[type=submit] {
+    background-color: #ff0000;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#carInfo {
+    width: 90%;
+    height: 500px;
+    text-align: left;
+    color: white;
+}
+
+#payHead {
+    text-align: left;
+    color: white;
+}
+
+#payment {
+    text-align: left;
+}
